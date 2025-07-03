@@ -5778,7 +5778,7 @@ strong {
 }
 
 .home-tokenization-section {
-    margin-top: 256px;
+    margin-top: 80px;
     padding-left: 5%;
     padding-right: 5%
 }
@@ -5833,7 +5833,7 @@ strong {
     border-radius: 16px;
     flex-flow: column;
     align-items: flex-start;
-    min-height: 480px;
+    /* min-height: 480px; */
     padding: 40px;
     display: flex;
     position: relative
