@@ -30,6 +30,15 @@ const template = `
         text-align: center;
         transition: background-color 0.3s ease;
     }
+    @media screen and (max-width:480px){
+        .address .content{
+            flex-direction:column;
+            align-items:flex-start;
+        }
+        .address .value{
+            font-size:3vw;
+        }
+    }
 </style>
 <div class="address">
     <h4>Token Address:</h4>
